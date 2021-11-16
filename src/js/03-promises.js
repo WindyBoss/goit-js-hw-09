@@ -91,7 +91,6 @@ class PromiseCycle {
   };
 };
 
-
 function promiseArgsLauch() {
   newPromise.promiseCycle(refs.amount.value, refs.delayInput.value, refs.stepInput.value);
 };

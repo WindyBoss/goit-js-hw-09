@@ -27,6 +27,24 @@
   },
   "dependencies": {
     "flatpickr": "^4.6.9",
-    "notiflix": "^3.2.2"
+    "notiflix": "^3.2.2",
+    "parcel-plugin-custom-dist-structure": "^1.1.18"
+  },
+  "customDistStructure": {
+    "config": {
+      ".js": "js",
+      ".js.map": "js",
+      "images": [
+        ".jpg",
+        ".png"
+      ],
+      ".css": "css",
+      ".css.map": "css",
+      ".fileExtension": "folder/in/dist",
+      "folder/in/dist": [ ".file", ".extensions" ]
+    },
+    "options": {
+      "development": true
+    }
   }
 }
